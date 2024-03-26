@@ -1,0 +1,41 @@
+.custom-toggle .navbar-toggler-icon {
+    color: #ffffff; 
+     background-color: #ffffff;
+     border: #ffffff;
+  }
+
+  .card-container{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    padding: 10PX;
+  }
+
+  .card-container p{
+    font-family: sans-serif;
+    font-weight: 700;
+    color: black;
+    cursor: pointer;
+    transition: .2s;
+    width: fit-content;
+  }
+  .card-container .react{
+    color: aqua;
+    background-color: black;
+    border-radius: 50%;
+  }
+  .card-container .angular{
+    color: red;
+    background-color: #ffffff;
+  }
+
+  .card-container .node{
+    color: green;
+  }
+
+  .card-container p:hover{
+    color: #ffffff;
+    background-color: black;
+    width: fit-content;
+    padding: 2px;
+  }
