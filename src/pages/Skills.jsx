@@ -53,30 +53,3 @@ export default Skills;
 
 
 
-{/* <div className='skill-container' id='skill'>
-<h1>Skill</h1>
-<Marquee direction='right'>
-  {skillimg.map((skill, index) => {
-    
-    const imageUrl = Object.values(skill)[0];
-    
-    return <img className='skillimgs' key={index} src={imageUrl} alt={`skill ${index}`} />;
-    
-  })}
-</Marquee>
-</div> */}
-
-
-
-// const skillimg = [
-//   { img: nodeimg },
-//   { img2: reactimg },
-//   { img3: exrepressimg },
-//   { img4: mongodbimg },
-//   { img5: angularimg },
-//   { img6: htmlimg },
-//   { img7: jsimg },
-//   { img8: cssimg },
-//   { img9: bootstrapimg },
-//   { img10: tailimg }
-// ];

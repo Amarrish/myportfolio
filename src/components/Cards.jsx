@@ -21,11 +21,3 @@ const Cards = () => {
 export default Cards
 
 
-{/* <div className='cards' data-aos="fade-up" >
-        <Card style={{ width: '190px',height:'230px' }}>
-    <Card.Img className='img-fluid' style={{ width: '100%',height:'80%' }} variant="top" src={nodeimg} />
-    <Card.Body>
-      <Card.Title>Card Title</Card.Title>
-    </Card.Body>
-  </Card>
-        </div> */}
