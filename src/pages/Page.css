@@ -172,8 +172,8 @@
 }
 
 .resume-container h1:hover{
-    background-color: #ffae18;
-    color: #000000;
+    color: #ffae18;
+    background-color: #000000;
 }
 
 .resume-cover{
@@ -283,8 +283,7 @@
 
 .containers {
     position: relative;
-    width: 300px;
-    /* background-color: #ffffff; */
+    width: 400px;
     height: 180px;
     margin: 2px;
   }
@@ -303,7 +302,7 @@
     right: 0;
     /* background-color: #d2f4ff; */
     overflow: hidden;
-    width: 300px;
+    width: 450px;
     height: 0;
     transition: .5s ease;
   }
@@ -315,8 +314,13 @@
     height: 180px;
     border-radius: 5px 5px 0 0;
   }
+  .project-container .title{
+    font-size: 15px;
+    font-weight: 600;
+  }
   
   .text {
+   
     color: white;
     font-size: 20px;
     position: absolute;
@@ -339,6 +343,7 @@
   .probtn button{
     border: .5px solid black;
     margin: 2px;
+    font-size: 15px;
   }
   .probtn button a{
     text-decoration: none;
@@ -349,6 +354,10 @@
     border: 2px solid black;
   }
 
+  .contact-container{
+    padding: 5px;
+    align-items: center;
+  }
   /* map */
   .map{
     width: 200px;
