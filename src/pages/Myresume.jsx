@@ -21,7 +21,7 @@ const Myresume = () => {
          <Col  xs={12} sm={12} md={6} lg={6} xl={6}>
         <div className='resumepara'  data-aos="fade-left" data-aos-duration='1000'>
         <p>Enthusiastic and detail-oriented MERN stack developer with strong expertise in JavaScript, HTML, and CSS. Proficient inReact.js, Node.js, and MongoDB, with hands-on experience in both frontend and backend development. Proven trackrecord of completing internships and personal projects, showcasing problem-solving skills and adherence to softwaredevelopment best practices. Adept at collaboration and quick adaptation to new technologies. Excellent communicationand teamwork skills.</p>
-        <a href={resume} download='AMARRISHMERN.pdf'><button className='btn' type='file'><i className="fa-solid fa-cloud-arrow-down fa-bounce"></i>Download Resume</button></a>
+        <a href={resume} download='AMARRISHMERNSTACK.pdf'><button className='btn' type='file'><i className="fa-solid fa-cloud-arrow-down fa-bounce"></i>Download Resume</button></a>
         </div>
         </Col>
         </Row>
