@@ -1,7 +1,9 @@
 import prjmng from '../assets/project management.jpg'
 import chatapp from '../assets/chatapp.jpg'
-import ecommerce from '../assets/ecommerce.jpg'
+import ecommerce from '../assets/ecomnerce.jpg'
 import ommbrulla from '../assets/ombrulla.jpg'
+import quiz from '../assets/quiz.jpg'
+import book from '../assets/book.jpg'
 const Project = () => {
   return (
     <>
@@ -53,7 +55,7 @@ const projects = [
         techused: "Reactjs, MongoDB, Expressjs, Nodejs",
         description: "Managing Our Projects and Information with user authentication" ,
         image: prjmng,
-        github: "https://github.com/Amarrish/Project-management-mern",
+        github: "https://github.com/Amarrish/Project-management-2023",
         site: " https://66127baf4a79d19fa1487b38--venerable-marigold-c0156b.netlify.app/",
       },
       {
@@ -62,7 +64,7 @@ const projects = [
         techused: "Reactjs, MongoDB, Expressjs, Nodejs",
         description: "The Registered Users can Chat each other. Socket io which enables bidirectional communication between web clients and servers" ,
         image: chatapp,
-        github: "https://github.com/Amarrish/Mychatapplication",
+        github: "https://github.com/Amarrish/Chat-Application-2023",
         site: "https://6614cba9210c38602e4d9e39--vocal-stardust-65ef3b.netlify.app/",
       },
       {
@@ -72,10 +74,28 @@ const projects = [
         description: "Registered Users Can view products and checkout. Also Admin can Add products etc.." ,
         image: ecommerce,
         github: "https://github.com/Amarrish/ecommerce_cloth",
-        site: "https://661a1566e487e34ae0cac4b9--serene-duckanoo-b2572e.netlify.app/",
+        site: "https://github.com/Amarrish/Ecommerce-project-2024",
       },
       {
         id: 4,
+        title: "Book-Store",
+        techused: "Reactjs,MongoDB,Express.js,Node,js,Tailwindcss",
+        description: "Responsive website" ,
+        image: book,
+        github: "https://github.com/Amarrish/book-store-2023",
+        site: "https://github.com/Amarrish/book-store-2023",
+      },
+      {
+        id: 5,
+        title: "Quiz-2024",
+        techused: "Reactjs",
+        description: "Responsive website" ,
+        image: quiz,
+        github: "https://github.com/Amarrish/Quiz-2024",
+        site: "https://quiz-2024.vercel.app/",
+      },
+      {
+        id: 6,
         title: "Webpage",
         techused: "Reactjs",
         description: "Responsive website" ,
