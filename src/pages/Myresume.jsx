@@ -1,6 +1,6 @@
 import myphoto1 from '../assets/myphoto1.jpg'
 import './Page.css';
-import resume from '../assets/AMARRISHMERNSTACK.pdf'
+import resume from '../assets/AMARRISHMEARN.pdf'
 import { Col, Row } from 'react-bootstrap';
 const Myresume = () => {
   return (
